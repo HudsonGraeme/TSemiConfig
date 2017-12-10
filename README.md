@@ -1,2 +1,2 @@
 # TSemiConfig
-Tesla Semi Truck Configurator Concept
+[Tesla Semi Truck Configurator Concept](https://hudsongraeme.github.io/TSemiConfig)
