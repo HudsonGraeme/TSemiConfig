@@ -61,13 +61,13 @@ function ChangeImage() {
 			document.getElementById("main").style.top = null;
 		document.getElementById("semi").style.color = null;
 		document.getElementById("config").style.color = null;
-		document.getElementById("main").style.width = null;
+		document.getElementById("main").style.width = "75%";
 				document.getElementById("semi").style.margin = "30px auto 30px auto";
 	}
 	else if(name.indexOf("3QTR") !== -1) {
 		currentView = "Driving";
 		newname = name.replace("3QTR", "Driving");
-		document.getElementById("main").style.width = null;
+		document.getElementById("main").style.width = "100%";
 		document.getElementById("main").style.top = "100px";
 		document.getElementById("semi").style.color = "black";
 		document.getElementById("config").style.color = "black";
@@ -100,7 +100,7 @@ function ChangeImageBk() {
 		if(name.indexOf(".jpg") !== -1) {
 			newname = newname.replace("jpg", "png");
 		}
-		document.getElementById("main").style.width = null;
+		document.getElementById("main").style.width = "100%";
 		document.getElementById("main").style.top = "100px";
 		document.getElementById("semi").style.color = "black";
 		document.getElementById("config").style.color = "black";
@@ -124,7 +124,7 @@ function ChangeImageBk() {
 		document.getElementById("main").style.top = null;
 		document.getElementById("semi").style.color = null;
 		document.getElementById("config").style.color = null;
-			document.getElementById("main").style.width = null;
+			document.getElementById("main").style.width = "75%";
 				document.getElementById("semi").style.margin = "30px auto 30px auto";
 	}
 	else {
